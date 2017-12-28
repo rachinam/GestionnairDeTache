@@ -34,7 +34,7 @@ public class G_de_tache {
         Process process = Runtime.getRuntime().exec("ps -aux");
 	BufferedReader r =  new BufferedReader(new InputStreamReader(process.getInputStream()));
 	String line = null;
-        line=r.readLine();line=r.readLine();line=r.readLine();
+        line=r.readLine();line=r.readLine();
         
         
         String[] ary = line.split(" ");
